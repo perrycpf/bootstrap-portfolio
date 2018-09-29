@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 17px;
+    color:#777777;
+    line-height: 1.9;
+    height: 100%;
+    width: 100%;
+    background-image: url('../images/background.jpg');
+}
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 960px;
+    clear: both;
+}
+#headerBar {
+    background: #ffffff;
+}
+header {
+    text-transform: capitalize;
+}
+#logo {
+    background-color: #4aaaa5;
+    color:#ffffff;
+    padding: 10px 25px 10px 25px;
+    font-family: Georgia,Times,"Times New Roman",serif; 
+    font-size: 28px;
+    font-weight: bold;
+}
+nav ul li {
+    border-left: 1px solid #dddddd;
+    float: right;
+    padding-left: 10px;
+    line-height: 0px;
+    color:#777777;
+}    
+nav ul li:first-child {
+    border-left: none;
+}
+nav a {
+    color:#777777; 
+}
+.heading-font {
+    font-family: Georgia,Times,"Times New Roman",serif; 
+    font-size: 28px;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #4aaaa5;
+    text-align: left;
+    border-bottom: solid;
+    border-color: #cccccc;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.profile-img {
+    float: left;
+    margin-right:15px;
+    width:250px; 
+    height:230px;
+}
+.margin-lr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.margin-tb {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+p + p {
+    margin-top: 9px;
+    text-align: justify;
+}
+.main-content {
+    background-color:#ffffff;
+    padding: 0 30px 30px 30px;
+    width: 100%;
+    margin: 40px 0 40px 0;
+}
+.footer {
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: capitalize;
+    color:#cccccc;
+    background-color:#666666;
+    padding-top: 25px;
+    height: 60px;
+    border-top: solid;
+    border-top-color:#4aaaa5;
+    border-top-width: 8px;
+}
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
+}
+label {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+#submit {
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 30px;
+    cursor: pointer;
+    background-color: #4aaaa5;
+    color: #ffffff;
+}
+.portfolio-img {
+    height: 170px;
+    width: 250px;
+    margin-top: 45px;
+    background-color: #dddddd;
+}
+.text-block{
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    line-height: 50px;
+    width: 250px;
+    font-family:Times,"Times New Roman",serif; 
+}
+.btn:hover {
+    border: 5px solid #81D9FF;
+    cursor: pointer;
+}
+.navbar li a:hover {
+    font-style: italic;
+    background-color: #cccccc;
+    cursor: pointer;
+}
